@@ -1,0 +1,5 @@
+.env
+config.py
+*.env
+similarity.pkl
+similarity.pkl
