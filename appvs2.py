@@ -53,7 +53,7 @@ def recommend(movie):
     return recommended_movies, recommended_movies_posters
 
 # === UI ===
-st.title('🎬 Movie Recommender System')
+st.title('🎬 Movie Recommender System by Rafael R')
 selected_movie_name = st.selectbox('Select a movie:', movies['title'].values)
 
 if st.button("Recommend"):
